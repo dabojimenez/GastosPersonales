@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GastosPersonales.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
