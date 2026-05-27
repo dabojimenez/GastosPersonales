@@ -14,5 +14,7 @@ namespace GastosPersonales.Data
         {
             base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
